@@ -29,6 +29,7 @@ supported thus runtime will still not take that long.
 ## Installation
 - Install Ruby 2.4.1 via rvm
 - Clone the repo
+- Install bundler gem via `gem install bundler`
 - Install dependencies via `bundle install`
 - Run the tests
 
