@@ -1,0 +1,73 @@
+{
+	"type": "object",
+	"properties": {
+		"data": {
+			"type": "object",
+			"properties": {
+				"product": {
+					"type": "object",
+					"properties": {
+						"productId": {
+							"type": "string"
+						},
+						"productName": {
+							"type": "string"
+						},
+						"destinationId": {
+							"type": "string"
+						},
+						"mediaData": {
+							"type": "array"
+						},
+						"cancellationType": {
+							"type": "string"
+						},
+						"cancellationWindow": {
+							"type": "number"
+						},
+						"minGroupSize": {
+							"type": ["number", "null"]
+						},
+						"duration": {
+							"type": "string"
+						},
+						"openDateTicket": {
+							"type": "boolean"
+						},
+						"collectPhysicalTicket": {
+							"type": "boolean"
+						},
+						"confirmationType": {
+							"type": "string"
+						},
+						"voucherType": {
+							"type": "string"
+						},
+						"guideLanguages": {
+							"type": "string"
+						},
+						"priceRangeFrom": {
+							"type": "double"
+						},
+						"priceRangeTo": {
+							"type": "double"
+						},
+						"latitude": {
+							"type": "string"
+						},
+						"longitude": {
+							"type": "string"
+						},
+						"address": {
+							"type": "string"
+						},
+						"content": {
+							"type": "object"
+						}
+					},
+					"additionalProperties": false
+				}
+			}
+		}
+	}
+}
